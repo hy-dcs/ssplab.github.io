@@ -3,3 +3,6 @@ layout: archive
 permalink: /members/
 title: "Members in ISP"
 ---
+{% for entry in site.data.authors %}
+<h3>{{entry.title}}</h3>
+{% endfor %}
