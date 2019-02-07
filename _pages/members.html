@@ -4,5 +4,9 @@ permalink: /members/
 title: "Members in ISP"
 ---
 {% for entry in site.data.authors %}
-<h3>{{entry.title}}</h3>
+    <h3>{{entry.title}}</h3>
+    {% for subcategories in entry.subcategories %}
+        <h2>{{subcategories.name}}</h2>
+        <h2>{{subcategories.bio}}</h2>
+    {% endfor%}
 {% endfor %}
