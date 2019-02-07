@@ -1,9 +1,21 @@
 # /_data/authors.yml
-professor:
-  name        : "Sooyong Kang"
-  bio         : "Department of Computer Software, Professor"
-  avatar      : "/assets/images/bio-photo-2.jpg"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:sykang@hanyang.ac.kr"
+- title : "Professor"
+  subcategories:
+    - name        : "Sooyong Kang (강수용)"
+    bio         : "Department of Computer Software, Professor"
+    avatar      : "/assets/images/bio-photo-2.jpg"
+    url: "mailto:sykang@hanyang.ac.kr"
+
+- title: "Ph.D "
+  subcategories:
+    - name: "Youngjin Kim (김영진)"
+    bio: "Department of Computer Software, Professor"
+    avatar: "/assets/images/bio-photo-2.jpg"
+    url: "mailto:sykang@hanyang.ac.kr"
+
+- title: "Professor"
+  subcategories:
+    - name: "Hochul Lee (이호철)"
+    bio: "Department of Computer Software, Professor"
+    avatar: "/assets/images/bio-photo-2.jpg"
+    url: "mailto:sykang@hanyang.ac.kr"
