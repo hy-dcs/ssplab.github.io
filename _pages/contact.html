@@ -1,0 +1,65 @@
+---
+layout: archive
+permalink: /contact/
+classes: wide
+---
+<section class="page__inner-wrap">
+    <section class="page__content">
+        <h2>Contact Us</h2>
+        <div>
+            한양대학교 지능형 소프트웨어 플랫폼 연구실에서는 2019년도 석사 연구생을 모집합니다. <br>
+            지능형 소프트웨어 플랫폼 연구실은 매우 젊고 역동적인 연구실입니다. 기대 이상의 기회와 성과를 제공할 데이터시스템연구실에 석사 신입생 여러분의 많은 지원 바랍니다. <br>
+            지능형 소프트웨어 플랫폼 연구실에 지원하고자 하는 예비대학원생들은 한양대학교 일반대학원 "컴퓨터소프트웨어학과"로 지원하셔야 합니다. <br>
+            컴퓨터소프트웨어학과는 기존의 전자컴퓨터통신공학과로부터 분리되어 2013년도부터 서울캠퍼스 컴퓨터공학부가 독립적으로 운영하는 대학원 학과이며, 기존의 전자컴퓨터통신공학과는 2013년도부터 서울캠퍼스 융합전자공학부에서 독립적으로 운영하게 됩니다.<br>
+            "Novelty from Dynamics!", 한양대학교 지능형 소프트웨어 플랫폼 연구실
+        </div>
+        <div>
+            <h3>Professor</h3>
+            {% for person in site.data.current_members %}
+                {% if person.role == "Professor" %}
+                    <span>{{person.email}}</span>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div>
+            <h3>Representative of Students</h3>
+            {% for person in site.data.current_members %}
+                {% if person.position contains "Chief" %}
+                <span>{{person.email}}</span>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+    <section class="page__content">
+        <h2>Address</h2>
+        <span>서울특별시 성동구 왕십리로 222 한양대학교 IT/BT 204-2호</span> <br>
+        <span>222, Wangsimni-ro, Seongdong-gu, Seoul, 04763, Korea IT/BT 204-2</span>
+        <div id="map" style="width:300px;height:200px;"></div>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9344e56a197d17abba77e19de3fcc340"></script>
+        <!--<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d2ce1432cdbabfbc0e23445d3106e73e"></script>-->
+
+        <script>
+            var container = document.getElementById('map');
+            var options = {
+                center: new daum.maps.LatLng(37.555877678957, 127.04944572326131),
+                level: 3
+            };
+            var map = new daum.maps.Map(container, options);
+
+            var markerPosition  = new daum.maps.LatLng(37.555877678957, 127.04944572326131);
+
+            // 마커를 생성합니다
+            var marker = new daum.maps.Marker({
+                position: markerPosition
+            });
+
+            // 마커가 지도 위에 표시되도록 설정합니다
+            marker.setMap(map);
+        </script>
+    </section>
+    <section class="page__content">
+        <h2>Tel</h2>
+        <h3>Laboratory</h3>
+        <span>+82-2-2220-4438</span>
+    </section>
+</section>
