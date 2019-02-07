@@ -1,0 +1,9 @@
+# /_data/authors.yml
+professor:
+  name        : "Sooyong Kang"
+  bio         : "Department of Computer Software, Professor"
+  avatar      : "/assets/images/bio-photo-2.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:sykang@hanyang.ac.kr"

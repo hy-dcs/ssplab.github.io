@@ -4,6 +4,10 @@ permalink: /members/
 title: "Members in ISP"
 ---
 <h3>Professor</h3>
+{% for entry in site.data.authors %}
+    <h2>{{entry.professor.name}}</h2>
+{% endfor %}
+
 <h3>Ph.d</h3>
 <h3>Master</h3>
 <h3>Alumni</h3>
