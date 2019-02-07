@@ -1,5 +1,5 @@
 ---
 title : "Youngjin Kim"
+degree : "박사8기"
+interest : "Cloud Platform"
 ---
-박사 8기
-클라우드 플랫폼, 빅데이터 플랫폼, 엣지 컴퓨팅 플랫폼, IoT 플랫폼
