@@ -1,10 +1,12 @@
 # main links
 main:
   - title: "Members"
+    url: /members/
   - title: "Research"
   - title: "Publications"
   - title: "Projects"
   - title: "News"
+  - title: "Contact"
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
