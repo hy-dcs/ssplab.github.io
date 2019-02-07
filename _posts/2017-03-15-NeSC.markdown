@@ -1,7 +1,0 @@
----
-layout: post
-title:  "NeSC: Self-Virtualizing Nested Storage Controller"
-date:   2017-03-15 Wed
-categories: jekyll update
----
-Hello world
