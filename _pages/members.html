@@ -1,12 +1,57 @@
 ---
 layout: archive
 permalink: /members/
-title: "Members in ISP"
+classes: wide
 ---
-{% for entry in site.data.authors %}
-    <h3>{{entry.title}}</h3>
-    {% for subcategories in entry.subcategories %}
-        <h2>{{subcategories.name}}</h2>
-        <h2>{{subcategories.bio}}</h2>
-    {% endfor%}
+<section class="page__inner-wrap">
+<h1>Professor</h1>
+<div class="feature__wrapper">
+{% for person in site.data.current_members %}
+    {% if person.role == "Professor" %}
+    <div class="feature__item">
+        <h3>{{person.name}}</h3>
+        <h4>{{person.email}}</h4>
+        <h4>{{person.interest}}</h4>
+    </div>
+    {% endif %}
 {% endfor %}
+</div>
+
+<h1>Ph.D</h1>
+<div class="feature__wrapper">
+{% for person in site.data.current_members %}
+    {% if person.role contains "Ph.D" %}
+    <div class="feature__item">
+        <h3>{{person.name}}</h3>
+        <h4>{{person.email}}</h4>
+        <h4>{{person.interest}}</h4>
+    </div>
+    {% endif %}
+{% endfor %}
+</div>
+
+<h1>Master</h1>
+<div class="feature__wrapper">
+{% for person in site.data.current_members %}
+{% if person.role contains "Master" %}
+<div class="feature__item">
+    <h3>{{person.name}}</h3>
+    <h4>{{person.email}}</h4>
+    <h4>{{person.interest}}</h4>
+</div>
+{% endif %}
+{% endfor %}
+</div>
+    <div class="feature__wrapper">
+        <h1>Alumni</h1>
+        {% for person in site.data.alumni %}
+        <div class="feature__item">
+            <h3>{{person.name}}</h3>
+            <h4>{{person.email}}</h4>
+            <h4>{{person.interest}}</h4>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+

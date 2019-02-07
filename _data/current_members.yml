@@ -1,0 +1,26 @@
+# /_data/current_members.yml
+- name: 강수용(Sooyong Kang)
+  email : sykang@hanyang.ac.kr
+  role : Professor
+  interest : Cloud Computing, Mobile Computing
+
+- name: 김영진(Youngjin Kim)
+  email : play1490@hanyang.ac.kr
+  role : Ph.D candidate
+  interest : Cloud Computing
+
+- name: 이호철(Hochul lee)
+  email : hclee97@hanyang.ac.kr
+  role : Ph.D candidate
+  interest : Mobile Computing
+
+- name: 송승호(Hochul lee)
+  email : hclee97@hanyang.ac.kr
+  role : Master Student
+  interest : Mobile Computing
+
+- name: 이세율(Hochul lee)
+  email : hclee97@hanyang.ac.kr
+  role : Master Student
+  interest : Mobile Computing
+
