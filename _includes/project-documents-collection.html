@@ -14,6 +14,16 @@
   {% endif %}
 {% endif %}
 
+<h2>Ongoing Projects</h2>
 {%- for post in entries -%}
-  {% include project-archive-single.html %}
+  {%- if post.progress contains "Ongoing" %}
+    {% include project-archive-single.html %}
+  {% endif %}
+{%- endfor -%}
+
+<h2>Closed Project</h2>
+{%- for post in entries -%}
+  {% if post.progress contains "Finish" %}
+    {% include project-archive-single.html %}
+  {% endif %}
 {%- endfor -%}
