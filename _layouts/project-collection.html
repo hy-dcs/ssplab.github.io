@@ -1,0 +1,20 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<ul class="taxonomy__index">
+  {% assign state = site.project | group_by: 'progress' %}
+  {% for progress in state %}
+    <li>
+      <a href="#{{ progress.name }}">
+        <strong>{{ progress.name }}</strong> <span class="taxonomy__count">{{ progress.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<div class="entries-{{ page.entries_layout }}">
+  {% include project-documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>

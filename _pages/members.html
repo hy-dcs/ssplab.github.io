@@ -35,6 +35,7 @@ classes: wide
 {% for person in site.data.current_members %}
 {% if person.role contains "Master" %}
 <div class="feature__item">
+    <img src="{{person.img}}">
     <h3>{{person.name}}</h3>
     <h4>{{person.email}}</h4>
     <h4>{{person.interest}}</h4>
@@ -42,16 +43,29 @@ classes: wide
 {% endif %}
 {% endfor %}
 </div>
-    <div class="feature__wrapper">
-        <h1>Alumni</h1>
+
+<h1>Intern</h1>
+<div class="feature__wrapper">
+{% for person in site.data.current_members %}
+{% if person.role contains "Intern" %}
+<div class="feature__item">
+    <h3>{{person.name}}</h3>
+    <h4>{{person.email}}</h4>
+    <h4>{{person.interest}}</h4>
+</div>
+{% endif %}
+{% endfor %}
+</div>
+<h1>Alumni</h1>
+<div class="feature__wrapper">
         {% for person in site.data.alumni %}
         <div class="feature__item">
             <h3>{{person.name}}</h3>
-            <h4>{{person.email}}</h4>
-            <h4>{{person.interest}}</h4>
+            <h4>{{person.role}}</h4>
+            <h4>{{person.work}}</h4>
         </div>
         {% endfor %}
-    </div>
+</div>
 </section>
 
 
