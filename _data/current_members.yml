@@ -16,13 +16,13 @@
   interest : Mobile Computing
 
 - name: 최기한(Kihan Choi)
-  email: choikihan1@gmail.com
+  email: choikihan1@hanyang.ac.kr
   role: Part-Time Ph.D student from TTA
   interest : Cloud Computing
-
+  img: /assets/images/member/kihan.jpg
 - name: 송치원
   email: none
-  role: Ph.D student
+  role: Ph.D student from LG Electronics
   interest: Cloud Computing
 
 - name: 송승호(Hochul lee)
@@ -35,6 +35,7 @@
   email : hclee97@hanyang.ac.kr
   role : Master Student
   interest : Mobile Computing
+  img: /assets/images/member/seyul.jpg
 
 - name: 김장현(Janghyun Kim)
   email : rlawkdgus95@naver.com

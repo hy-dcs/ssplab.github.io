@@ -7,6 +7,7 @@ main:
   - title: "Publications"
     url: /publication/
   - title: "News"
+    url: /news/
   - title: "Contact"
     url: /contact/
   #- title: "Quick-Start Guide"

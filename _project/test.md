@@ -1,8 +1,0 @@
----
-title: 클라우드향 오브젝트 스토리지의 상용화 개발
-start-date: 2015-09-01
-end-date: 2016-08-31
-progress: Finish
-host: 중소기업청(TIPA)
-division: 국가과제
----
