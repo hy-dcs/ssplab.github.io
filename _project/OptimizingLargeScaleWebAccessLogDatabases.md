@@ -1,4 +1,3 @@
-
 ---
 title: Optimizing Large Scale Web Access Log Databases
 start-date: 2011-03-01

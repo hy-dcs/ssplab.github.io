@@ -1,4 +1,3 @@
-
 ---
 title: Development of Core Technologies for Next Generation Hyper MLC NAND based SSD
 start-date: 2010-03-01

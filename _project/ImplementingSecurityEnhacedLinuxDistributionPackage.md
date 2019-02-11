@@ -1,4 +1,3 @@
-
 ---
 title: Implementing Security Enhaced Linux Distribution Package
 start-date: 2000-03-01

@@ -1,4 +1,3 @@
-
 ---
 title: A Study on Validity of SSD-based In-Memory System
 start-date: 2012-05-01

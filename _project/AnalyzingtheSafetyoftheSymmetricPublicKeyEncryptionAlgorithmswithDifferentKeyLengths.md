@@ -1,4 +1,3 @@
-
 ---
 title: Analyzing the Safety of the Symmetric Public Key Encryption Algorithms with Different Key Lengths
 start-date: 2001-03-01

@@ -1,4 +1,3 @@
-
 ---
 title: Next-Generation Technologies for Smart TV
 start-date: 2012-07-01

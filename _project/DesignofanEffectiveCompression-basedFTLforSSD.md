@@ -1,4 +1,3 @@
-
 ---
 title: Design of an Effective Compression-based FTL for SSD
 start-date: 2012-12-01

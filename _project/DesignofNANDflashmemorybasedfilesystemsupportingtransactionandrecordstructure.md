@@ -1,4 +1,3 @@
-
 ---
 title: Design of NAND flash memory based file system supporting transaction and record structure
 start-date: 2006-03-01

@@ -1,4 +1,3 @@
-
 ---
 title: Korea Construction Engineering Development Program
 start-date: 2015-09-01

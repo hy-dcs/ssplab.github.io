@@ -1,4 +1,3 @@
-
 ---
 title: Implementing EC Supply Chain Management System
 start-date: 1999-03-01

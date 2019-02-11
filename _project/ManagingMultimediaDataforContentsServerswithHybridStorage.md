@@ -1,4 +1,3 @@
-
 ---
 title: Managing Multimedia Data for Contents Servers with Hybrid Storage
 start-date: 2007-03-01

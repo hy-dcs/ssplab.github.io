@@ -1,4 +1,3 @@
-
 ---
 title: Development of Core System Technologies for Object-based SSD
 start-date: 2011-03-01

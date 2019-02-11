@@ -1,4 +1,3 @@
-
 ---
 title: Implementing XML Translation Component for Contents Adaptation in Multi-Platform Environment
 start-date: 2004-03-01

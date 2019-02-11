@@ -1,4 +1,3 @@
-
 ---
 title: Media Streaming on the Peer-to-Peer Networks
 start-date: 2003-03-01

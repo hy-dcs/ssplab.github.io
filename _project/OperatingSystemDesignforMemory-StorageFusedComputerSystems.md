@@ -1,4 +1,3 @@
-
 ---
 title: Operating System Design for Memory-Storage Fused Computer Systems
 start-date: 2007-03-01

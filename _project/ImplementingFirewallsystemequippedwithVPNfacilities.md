@@ -1,4 +1,3 @@
-
 ---
 title: Implementing Firewall system equipped with VPN facilities
 start-date: 1999-03-01
