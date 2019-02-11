@@ -299,7 +299,6 @@ defaults:
       comments: # true
       share: true
       related: true
-
 # _project
   - scope:
       path: "_project"
