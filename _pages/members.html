@@ -57,15 +57,24 @@ classes: wide
 {% endfor %}
 </div>
 <h1>Alumni</h1>
-<div class="feature__wrapper">
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Degree</th>
+        <th>Career</th>
+    </tr>
+    </thead>
+    <tbody>
         {% for person in site.data.alumni %}
-        <div class="feature__item">
-            <h3>{{person.name}}</h3>
-            <h4>{{person.role}}</h4>
-            <h4>{{person.work}}</h4>
-        </div>
+            <tr>
+                <td>{{person.name}}</td>
+                <td>{{person.role}}</td>
+                <td>{{person.work}}</td>
+            </tr>
         {% endfor %}
-</div>
+    </tbody>
+</table>
 </section>
 
 
