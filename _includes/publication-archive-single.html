@@ -23,18 +23,16 @@
           alt="">
       </div>
     {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
+    <h4 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-    </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
+    </h4>
+    <div style="margin-left:1.5em; margin-bottom:0.5em">
     {% if post.first-author %}<span class="archive__item-excerpt" itemprop="description"><i class="fas fa-users"></i>  {{ post.first-author | strip_html | truncate: 160 }}, {{post.co-authors}}</span><br>{% endif %}
-    {% if post.name %}<span class="archive__item-excerpt" itemprop="description"><i class="fas fa-chalkboard-teacher"></i>  {{ post.name | strip_html | truncate: 160 }}</span><br>{% endif %}
-    {% if post.during %}<span class="archive__item-excerpt" itemprop="description"><i class="far fa-calendar-alt" aria-hidden="true"></i>  {{post.during}}, <i class="fas fa-map-marker-alt" aria-hidden="true"></i>  {{post.location}}</span><br>{% endif %}
+    {% if post.name %}<span class="archive__item-excerpt" itemprop="description"><i class="fas fa-chalkboard-teacher"></i>  {{ post.name | strip_html | truncate: 160 }} <i class="far fa-calendar-alt"></i>{{post.during}}<i class="fas fa-map-marker-alt"></i>{{post.loation}} </span><br>{% endif %}
+    </div>
   </article>
 </div>
